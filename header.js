@@ -1,0 +1,119 @@
+// header.js
+document.addEventListener("DOMContentLoaded", function () {
+  const headerContent = `
+<header class="p-3 text-bg-success">
+  <div class="container-fluid">
+    <div
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+    >
+      <a
+        href="/"
+        class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+      >
+        <img
+          src="/imagens/NomeBandeira.png"
+          class="bi me-2"
+          width="217.2"
+          height="36.4"
+          alt=""
+        />
+      </a>
+
+      <ul
+        class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 text-end"
+      >
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link px-2 text-white dropdown-toggle"
+            href="/index.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            A PASARGADA
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                href="/pasargada/estrutura/estrutura.html"
+                >ESTRUTURA</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="/pasargada/sobre-nos/sobre-nos.html"
+                >SOBRE NÓS</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link px-2 text-white dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            PASARGADEANOS
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                href="/pasargadeanos/ex-alunos/ex-alunos.html"
+                >EX-ALUNOS</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="/pasargadeanos/homenageados/homenageados.html"
+                >HOMENAGEADOS</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="/pasargadeanos/moradores/moradores.html"
+                >MORADORES</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/festas/festas.html" class="nav-link px-2 text-white"
+            >CONFRATERNIZAÇÕES</a
+          >
+        </li>
+        <li>
+          <a href="/vagas/vagas.html" class="nav-link px-2 text-white">VAGAS</a>
+        </li>
+        <li>
+          <a href="/blog/blog.html" class="nav-link px-2 text-white">BLOG</a>
+        </li>
+      </ul>
+
+      <div class="text-end">
+        <a
+          href="https://wa.me/5531994150194"
+          class="btn btn-primary"
+          target="_blank"
+        >
+          Entre em contato!
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+    `;
+
+  // Insere o header em todos os elementos com a classe "header-container"
+  const headerContainers = document.querySelectorAll(".header-container");
+  headerContainers.forEach((container) => {
+    container.innerHTML = headerContent;
+  });
+});

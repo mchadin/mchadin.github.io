@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>República Pasárgada</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <style>
+      .about-us {
+        background-color: #f8f9fa;
+      }
+
+      img {
+        transition: transform 0.3s ease-in-out;
+      }
+
+      img:hover {
+        transform: scale(1.03);
+      }
+      .carousel-item {
+        height: 65vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <!-- Header/Navbar -->
+    <div class="header-container"></div>
+    <header>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url('/imagens/tigrada.jpg')"
+          >
+            <div class="carousel-caption">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('/imagens/despedida.png')"
+          >
+            <div class="carousel-caption">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div
+            class="carousel-item"
+            style="background-image: url('/imagens/escava.jpg')"
+          >
+            <div class="carousel-caption">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <div class="container">
+      <section class="about-us">
+        <div class="row align-items-center my-2 g-4">
+          <div class="col-lg-6">
+            <small class="text-uppercase text-success"
+              >Bem vindo a nossa casa</small
+            >
+            <h1 class="h2 mb-4 fw-bold">
+              Sobre nossa <span class="text-success">República</span>
+            </h1>
+            <p class="text-muted" style="line-height: 2">
+              A <strong>Pasárgada</strong> é uma República Masculina da
+              <strong>Universidade Federal de Ouro Preto</strong>, fundada em
+              1982.
+              <a
+                href="/pasargada/sobre-nos/sobre-nos.html"
+                target="_blank"
+                class="text-success"
+              >
+                Conheça nossa história</a
+              >. <br />
+              Estamos localizados no
+              <strong>Campus do Morro do Cruzeiro</strong>, em Ouro Preto, ao
+              lado da Universidade.
+              <a
+                href="https://maps.app.goo.gl/qnPVkZgsbEhuqLFQ7"
+                target="_blank"
+                class="text-success"
+              >
+                Veja no mapa</a
+              >. <br />
+              Já formamos mais de 80 alunos que, hoje espalhados pelo Brasil e
+              mundo, se orgulham das experiências vividas em nossa casa.
+              <a
+                href="/pasargadeanos/ex-alunos/ex-alunos.html"
+                class="text-success"
+                >Conheça nossos ex-alunos</a
+              >.
+            </p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              src="imagens/21de2019.jpeg"
+              class="img-fluid rounded"
+              alt="Fotos dos moradores"
+            />
+          </div>
+        </div>
+        <div class="row align-items-center mb-2 g-4">
+          <div class="col-md-6">
+            <div class="row g-2">
+              <div class="col-6">
+                <img
+                  src="imagens/quarto.jpg"
+                  class="w-100 rounded"
+                  alt="Quarto"
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  src="imagens/VisaoDJ.jpg"
+                  class="w-100 rounded"
+                  alt="Área comum"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-4">Por que morar com a gente?</h2>
+            <p class="text-muted mb-4">
+              Recebemos estudantes de todos os cursos da UFOP.
+            </p>
+
+            <div class="row">
+              <div class="col-md-6">
+                <h5 class="text-success">Nossa Estrutura</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> 9 Quartos
+                    Mobiliados
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Quartos de Estudos
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Lavanderia Completa
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Área de
+                    Churrasqueira
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Sala de TV
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> PS4 e Streamings
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Estacionamento
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <h5 class="text-success">Nossas Vantagens</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Baixo Custo
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Ao lado da UFOP
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Cumadre diária
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Compras Mensais
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Café da Manhã
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-check text-success"></i> Almoço e Janta
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <a
+              href="/pasargada/estrutura/estrutura.html"
+              class="btn btn-success btn-lg"
+            >
+              Conheça mais!
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <div class="footer-container"></div>
+    </div>
+    <script src="/header.js"></script>
+    <script src="/footer.js"></script>
+    <!-- Bootstrap 5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
