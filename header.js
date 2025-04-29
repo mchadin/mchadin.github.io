@@ -47,6 +47,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 >SOBRE NÓS</a
               >
             </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="/pasargada/nossa-historia/nossa-historia.html"
+                >NOSSA HISTÓRIA</a
+              >
+            </li>
           </ul>
         </li>
 
